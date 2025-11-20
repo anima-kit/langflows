@@ -1,4 +1,4 @@
-# <img src="https://anima-kit.github.io/langflows-dev/assets/langflow.svg" alt="Langflow" style="width: 32px; height: 32px; vertical-align: middle;">  Langflows
+# <img src="https://anima-kit.github.io/langflows/assets/langflow.svg" alt="Langflow" style="width: 32px; height: 32px; vertical-align: middle;">  Langflows
 
 ## 🔖 About This Project 
 
@@ -49,7 +49,7 @@ I like to use *local* servers for my AI systems, so I'm pretty sure every `flow`
 Now that everything is setup, you can upload this repo's JSONs to Langflow and test them out in the `Playground`.
 
 <p align="center">
-  <img src="https://anima-kit.github.io/langflows-dev/assets/langflow-start.gif" alt="animated"/>
+  <img src="https://anima-kit.github.io/langflows/assets/langflow-start.gif" alt="animated"/>
 </p>
 
 ## 📚 Next Steps & Learning Resources 

@@ -40,11 +40,13 @@ I like to use *local* servers for my AI systems, so I'm pretty sure every `flow`
 
 **Setting up in Docker**
 
-> You can also setup both Ollama and Milvus in Docker.
+> You can also setup both Ollama and Milvus in Docker. I've included various example `docker-compose` files. For example, to build and run Milvus and Ollama with GPU support:
 
-> To setup Ollama, see the [official instructions here][ollama-docker] or alternate instructions [here][ak-ollama-docker].
+  ```
+  docker compose -f docker-compose/milvus-ollama-gpu.yml up -d
+  ```
 
-> To setup Milvus, see the [official instructions here][milvus-docker] or alternate instructions [here][ak-milvus-docker].
+> You can also checkout the official instructions for [Ollama][ollama-docker] and [Milvus][milvus-docker] to setup your own.
 
 Now that everything is setup, you can upload this repo's JSONs to Langflow and test them out in the `Playground`.
 

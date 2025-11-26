@@ -36,34 +36,6 @@
           "sourceHandle": {
             "dataType": "ConditionalRouter",
             "id": "ConditionalRouter-fJTiQ",
-            "name": "true_result",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "TextOutput-C3unq",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__ConditionalRouter-fJTiQ{œdataTypeœ:œConditionalRouterœ,œidœ:œConditionalRouter-fJTiQœ,œnameœ:œtrue_resultœ,œoutput_typesœ:[œMessageœ]}-TextOutput-C3unq{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-C3unqœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "ConditionalRouter-fJTiQ",
-        "sourceHandle": "{œdataTypeœ:œConditionalRouterœ,œidœ:œConditionalRouter-fJTiQœ,œnameœ:œtrue_resultœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "TextOutput-C3unq",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-C3unqœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "ConditionalRouter",
-            "id": "ConditionalRouter-fJTiQ",
             "name": "false_result",
             "output_types": [
               "Message"
@@ -112,34 +84,6 @@
         "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-tFMsAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
         "target": "ConditionalRouter-fJTiQ",
         "targetHandle": "{œfieldNameœ:œinput_textœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "TextInput",
-            "id": "TextInput-tFMsA",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "false_case_message",
-            "id": "ConditionalRouter-fJTiQ",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__TextInput-tFMsA{œdataTypeœ:œTextInputœ,œidœ:œTextInput-tFMsAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-ConditionalRouter-fJTiQ{œfieldNameœ:œfalse_case_messageœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "TextInput-tFMsA",
-        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-tFMsAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ConditionalRouter-fJTiQ",
-        "targetHandle": "{œfieldNameœ:œfalse_case_messageœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -204,34 +148,6 @@
         "className": "",
         "data": {
           "sourceHandle": {
-            "dataType": "ParserComponent",
-            "id": "ParserComponent-DsXKl",
-            "name": "parsed_text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "true_case_message",
-            "id": "ConditionalRouter-fJTiQ",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__ParserComponent-DsXKl{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-DsXKlœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-ConditionalRouter-fJTiQ{œfieldNameœ:œtrue_case_messageœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "ParserComponent-DsXKl",
-        "sourceHandle": "{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-DsXKlœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ConditionalRouter-fJTiQ",
-        "targetHandle": "{œfieldNameœ:œtrue_case_messageœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
             "dataType": "SplitText",
             "id": "SplitText-i2l69",
             "name": "dataframe",
@@ -283,6 +199,87 @@
         "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-DTqsuœ,œnameœ:œoutputœ,œoutput_typesœ:[œDataFrameœ]}",
         "target": "ParserComponent-DsXKl",
         "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-DsXKlœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-tFMsA",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "true_case_message",
+            "id": "ConditionalRouter-fJTiQ",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-tFMsA{œdataTypeœ:œTextInputœ,œidœ:œTextInput-tFMsAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-ConditionalRouter-fJTiQ{œfieldNameœ:œtrue_case_messageœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-tFMsA",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-tFMsAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ConditionalRouter-fJTiQ",
+        "targetHandle": "{œfieldNameœ:œtrue_case_messageœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ParserComponent",
+            "id": "ParserComponent-DsXKl",
+            "name": "parsed_text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "false_case_message",
+            "id": "ConditionalRouter-fJTiQ",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ParserComponent-DsXKl{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-DsXKlœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-ConditionalRouter-fJTiQ{œfieldNameœ:œfalse_case_messageœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ParserComponent-DsXKl",
+        "sourceHandle": "{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-DsXKlœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ConditionalRouter-fJTiQ",
+        "targetHandle": "{œfieldNameœ:œfalse_case_messageœ,œidœ:œConditionalRouter-fJTiQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "data": {
+          "sourceHandle": {
+            "dataType": "ConditionalRouter",
+            "id": "ConditionalRouter-fJTiQ",
+            "name": "true_result",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "TextOutput-GRvnY",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ConditionalRouter-fJTiQ{œdataTypeœ:œConditionalRouterœ,œidœ:œConditionalRouter-fJTiQœ,œnameœ:œtrue_resultœ,œoutput_typesœ:[œMessageœ]}-TextOutput-GRvnY{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-GRvnYœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "ConditionalRouter-fJTiQ",
+        "sourceHandle": "{œdataTypeœ:œConditionalRouterœ,œidœ:œConditionalRouter-fJTiQœ,œnameœ:œtrue_resultœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextOutput-GRvnY",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-GRvnYœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       }
     ],
     "nodes": [
@@ -390,7 +387,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "import re\n\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.io import BoolInput, DropdownInput, IntInput, MessageInput, MessageTextInput, Output\nfrom langflow.schema.message import Message\n\n\nclass ConditionalRouterComponent(Component):\n    display_name = \"If-Else\"\n    description = \"Routes an input message to a corresponding output based on text comparison.\"\n    documentation: str = \"https://docs.langflow.org/components-logic#conditional-router-if-else-component\"\n    icon = \"split\"\n    name = \"ConditionalRouter\"\n\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.__iteration_updated = False\n\n    inputs = [\n        MessageTextInput(\n            name=\"input_text\",\n            display_name=\"Text Input\",\n            info=\"The primary text input for the operation.\",\n            required=True,\n        ),\n        DropdownInput(\n            name=\"operator\",\n            display_name=\"Operator\",\n            options=[\n                \"equals\",\n                \"not equals\",\n                \"contains\",\n                \"starts with\",\n                \"ends with\",\n                \"regex\",\n                \"less than\",\n                \"less than or equal\",\n                \"greater than\",\n                \"greater than or equal\",\n            ],\n            info=\"The operator to apply for comparing the texts.\",\n            value=\"equals\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"match_text\",\n            display_name=\"Match Text\",\n            info=\"The text input to compare against.\",\n            required=True,\n        ),\n        BoolInput(\n            name=\"case_sensitive\",\n            display_name=\"Case Sensitive\",\n            info=\"If true, the comparison will be case sensitive.\",\n            value=True,\n            advanced=True,\n        ),\n        MessageInput(\n            name=\"true_case_message\",\n            display_name=\"Case True\",\n            info=\"The message to pass if the condition is True.\",\n            advanced=True,\n        ),\n        MessageInput(\n            name=\"false_case_message\",\n            display_name=\"Case False\",\n            info=\"The message to pass if the condition is False.\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_iterations\",\n            display_name=\"Max Iterations\",\n            info=\"The maximum number of iterations for the conditional router.\",\n            value=10,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"default_route\",\n            display_name=\"Default Route\",\n            options=[\"true_result\", \"false_result\"],\n            info=\"The default route to take when max iterations are reached.\",\n            value=\"false_result\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"True\", name=\"true_result\", method=\"true_response\", group_outputs=True),\n        Output(display_name=\"False\", name=\"false_result\", method=\"false_response\", group_outputs=True),\n    ]\n\n    def _pre_run_setup(self):\n        self.__iteration_updated = False\n\n    def evaluate_condition(self, input_text: str, match_text: str, operator: str, *, case_sensitive: bool) -> bool:\n        if not case_sensitive and operator != \"regex\":\n            input_text = input_text.lower()\n            match_text = match_text.lower()\n\n        if operator == \"equals\":\n            return input_text == match_text\n        if operator == \"not equals\":\n            return input_text != match_text\n        if operator == \"contains\":\n            return match_text in input_text\n        if operator == \"starts with\":\n            return input_text.startswith(match_text)\n        if operator == \"ends with\":\n            return input_text.endswith(match_text)\n        if operator == \"regex\":\n            try:\n                return bool(re.match(match_text, input_text))\n            except re.error:\n                return False  # Return False if the regex is invalid\n        if operator in [\"less than\", \"less than or equal\", \"greater than\", \"greater than or equal\"]:\n            try:\n                ### Changed: Lauren Street 2024/11/24\n                ### Change input number to len of input text\n                input_num = float(len(input_text))\n                print(input_num)\n                match_num = float(match_text)\n                print(match_num)\n                if operator == \"less than\":\n                    return input_num < match_num\n                if operator == \"less than or equal\":\n                    return input_num <= match_num\n                if operator == \"greater than\":\n                    return input_num > match_num\n                if operator == \"greater than or equal\":\n                    return input_num >= match_num\n            except ValueError:\n                return False  # Invalid number format for comparison\n        return False\n\n    def iterate_and_stop_once(self, route_to_stop: str):\n        \"\"\"Handles cycle iteration counting and branch exclusion.\n\n        Uses two complementary mechanisms:\n        1. stop() - ACTIVE/INACTIVE state for cycle management (gets reset each iteration)\n        2. exclude_branch_conditionally() - Persistent exclusion for conditional routing\n\n        When max_iterations is reached, breaks the cycle by allowing the default_route to execute.\n        \"\"\"\n        if not self.__iteration_updated:\n            self.update_ctx({f\"{self._id}_iteration\": self.ctx.get(f\"{self._id}_iteration\", 0) + 1})\n            self.__iteration_updated = True\n            current_iteration = self.ctx.get(f\"{self._id}_iteration\", 0)\n\n            # Check if max iterations reached and we're trying to stop the default route\n            if current_iteration >= self.max_iterations and route_to_stop == self.default_route:\n                # Clear ALL conditional exclusions to allow default route to execute\n                if self._id in self.graph.conditional_exclusion_sources:\n                    previous_exclusions = self.graph.conditional_exclusion_sources[self._id]\n                    self.graph.conditionally_excluded_vertices -= previous_exclusions\n                    del self.graph.conditional_exclusion_sources[self._id]\n\n                # Switch which route to stop - stop the NON-default route to break the cycle\n                route_to_stop = \"true_result\" if route_to_stop == \"false_result\" else \"false_result\"\n\n                # Call stop to break the cycle\n                self.stop(route_to_stop)\n                # Don't apply conditional exclusion when breaking cycle\n                return\n\n            # Normal case: Use BOTH mechanisms\n            # 1. stop() for cycle management (marks INACTIVE, updates run manager, gets reset)\n            self.stop(route_to_stop)\n\n            # 2. Conditional exclusion for persistent routing (doesn't get reset except by this router)\n            self.graph.exclude_branch_conditionally(self._id, output_name=route_to_stop)\n\n    def true_response(self) -> Message:\n        result = self.evaluate_condition(\n            self.input_text, self.match_text, self.operator, case_sensitive=self.case_sensitive\n        )\n\n        # Check if we should force output due to max_iterations on default route\n        current_iteration = self.ctx.get(f\"{self._id}_iteration\", 0)\n        force_output = current_iteration >= self.max_iterations and self.default_route == \"true_result\"\n\n        if result or force_output:\n            self.status = self.true_case_message\n            if not force_output:  # Only stop the other branch if not forcing due to max iterations\n                self.iterate_and_stop_once(\"false_result\")\n            return self.true_case_message\n        self.iterate_and_stop_once(\"true_result\")\n        return Message(content=\"\")\n\n    def false_response(self) -> Message:\n        result = self.evaluate_condition(\n            self.input_text, self.match_text, self.operator, case_sensitive=self.case_sensitive\n        )\n\n        if not result:\n            self.status = self.false_case_message\n            self.iterate_and_stop_once(\"true_result\")\n            return self.false_case_message\n\n        self.iterate_and_stop_once(\"false_result\")\n        return Message(content=\"\")\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None) -> dict:\n        if field_name == \"operator\":\n            if field_value == \"regex\":\n                build_config.pop(\"case_sensitive\", None)\n            elif \"case_sensitive\" not in build_config:\n                case_sensitive_input = next(\n                    (input_field for input_field in self.inputs if input_field.name == \"case_sensitive\"), None\n                )\n                if case_sensitive_input:\n                    build_config[\"case_sensitive\"] = case_sensitive_input.to_dict()\n        return build_config\n"
+                "value": "import re\n\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.io import BoolInput, DropdownInput, IntInput, MessageInput, MessageTextInput, Output\nfrom langflow.schema.message import Message\n\n### Changed: Lauren Street 2024/11/26\n### Change input number to number of approx tokens\nimport tiktoken\n\n\nclass ConditionalRouterComponent(Component):\n    display_name = \"If-Else\"\n    description = \"Routes an input message to a corresponding output based on text comparison.\"\n    documentation: str = \"https://docs.langflow.org/components-logic#conditional-router-if-else-component\"\n    icon = \"split\"\n    name = \"ConditionalRouter\"\n\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.__iteration_updated = False\n\n    inputs = [\n        MessageTextInput(\n            name=\"input_text\",\n            display_name=\"Text Input\",\n            info=\"The primary text input for the operation.\",\n            required=True,\n        ),\n        DropdownInput(\n            name=\"operator\",\n            display_name=\"Operator\",\n            options=[\n                \"equals\",\n                \"not equals\",\n                \"contains\",\n                \"starts with\",\n                \"ends with\",\n                \"regex\",\n                \"less than\",\n                \"less than or equal\",\n                \"greater than\",\n                \"greater than or equal\",\n            ],\n            info=\"The operator to apply for comparing the texts.\",\n            value=\"equals\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"match_text\",\n            display_name=\"Match Text\",\n            info=\"The text input to compare against.\",\n            required=True,\n        ),\n        BoolInput(\n            name=\"case_sensitive\",\n            display_name=\"Case Sensitive\",\n            info=\"If true, the comparison will be case sensitive.\",\n            value=True,\n            advanced=True,\n        ),\n        MessageInput(\n            name=\"true_case_message\",\n            display_name=\"Case True\",\n            info=\"The message to pass if the condition is True.\",\n            advanced=True,\n        ),\n        MessageInput(\n            name=\"false_case_message\",\n            display_name=\"Case False\",\n            info=\"The message to pass if the condition is False.\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_iterations\",\n            display_name=\"Max Iterations\",\n            info=\"The maximum number of iterations for the conditional router.\",\n            value=10,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"default_route\",\n            display_name=\"Default Route\",\n            options=[\"true_result\", \"false_result\"],\n            info=\"The default route to take when max iterations are reached.\",\n            value=\"false_result\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"True\", name=\"true_result\", method=\"true_response\", group_outputs=True),\n        Output(display_name=\"False\", name=\"false_result\", method=\"false_response\", group_outputs=True),\n    ]\n\n    def _pre_run_setup(self):\n        self.__iteration_updated = False\n\n    def evaluate_condition(self, input_text: str, match_text: str, operator: str, *, case_sensitive: bool) -> bool:\n        if not case_sensitive and operator != \"regex\":\n            input_text = input_text.lower()\n            match_text = match_text.lower()\n\n        if operator == \"equals\":\n            return input_text == match_text\n        if operator == \"not equals\":\n            return input_text != match_text\n        if operator == \"contains\":\n            return match_text in input_text\n        if operator == \"starts with\":\n            return input_text.startswith(match_text)\n        if operator == \"ends with\":\n            return input_text.endswith(match_text)\n        if operator == \"regex\":\n            try:\n                return bool(re.match(match_text, input_text))\n            except re.error:\n                return False  # Return False if the regex is invalid\n        if operator in [\"less than\", \"less than or equal\", \"greater than\", \"greater than or equal\"]:\n            try:\n                ### Changed: Lauren Street 2024/11/26\n                ### Change input number to number of approx tokens\n                \n                def est_tokens(text: str, model=\"gpt-4\") -> int:\n                    encoding = tiktoken.encoding_for_model(model)\n                    return len(encoding.encode(text))\n                \n                input_num = est_tokens(input_text)\n                print(input_num)\n                match_num = float(match_text)\n                print(match_num)\n                if operator == \"less than\":\n                    return input_num < match_num\n                if operator == \"less than or equal\":\n                    return input_num <= match_num\n                if operator == \"greater than\":\n                    return input_num > match_num\n                if operator == \"greater than or equal\":\n                    return input_num >= match_num\n            except ValueError:\n                return False  # Invalid number format for comparison\n        return False\n\n    def iterate_and_stop_once(self, route_to_stop: str):\n        \"\"\"Handles cycle iteration counting and branch exclusion.\n\n        Uses two complementary mechanisms:\n        1. stop() - ACTIVE/INACTIVE state for cycle management (gets reset each iteration)\n        2. exclude_branch_conditionally() - Persistent exclusion for conditional routing\n\n        When max_iterations is reached, breaks the cycle by allowing the default_route to execute.\n        \"\"\"\n        if not self.__iteration_updated:\n            self.update_ctx({f\"{self._id}_iteration\": self.ctx.get(f\"{self._id}_iteration\", 0) + 1})\n            self.__iteration_updated = True\n            current_iteration = self.ctx.get(f\"{self._id}_iteration\", 0)\n\n            # Check if max iterations reached and we're trying to stop the default route\n            if current_iteration >= self.max_iterations and route_to_stop == self.default_route:\n                # Clear ALL conditional exclusions to allow default route to execute\n                if self._id in self.graph.conditional_exclusion_sources:\n                    previous_exclusions = self.graph.conditional_exclusion_sources[self._id]\n                    self.graph.conditionally_excluded_vertices -= previous_exclusions\n                    del self.graph.conditional_exclusion_sources[self._id]\n\n                # Switch which route to stop - stop the NON-default route to break the cycle\n                route_to_stop = \"true_result\" if route_to_stop == \"false_result\" else \"false_result\"\n\n                # Call stop to break the cycle\n                self.stop(route_to_stop)\n                # Don't apply conditional exclusion when breaking cycle\n                return\n\n            # Normal case: Use BOTH mechanisms\n            # 1. stop() for cycle management (marks INACTIVE, updates run manager, gets reset)\n            self.stop(route_to_stop)\n\n            # 2. Conditional exclusion for persistent routing (doesn't get reset except by this router)\n            self.graph.exclude_branch_conditionally(self._id, output_name=route_to_stop)\n\n    def true_response(self) -> Message:\n        result = self.evaluate_condition(\n            self.input_text, self.match_text, self.operator, case_sensitive=self.case_sensitive\n        )\n\n        # Check if we should force output due to max_iterations on default route\n        current_iteration = self.ctx.get(f\"{self._id}_iteration\", 0)\n        force_output = current_iteration >= self.max_iterations and self.default_route == \"true_result\"\n\n        if result or force_output:\n            self.status = self.true_case_message\n            if not force_output:  # Only stop the other branch if not forcing due to max iterations\n                self.iterate_and_stop_once(\"false_result\")\n            return self.true_case_message\n        self.iterate_and_stop_once(\"true_result\")\n        return Message(content=\"\")\n\n    def false_response(self) -> Message:\n        result = self.evaluate_condition(\n            self.input_text, self.match_text, self.operator, case_sensitive=self.case_sensitive\n        )\n\n        if not result:\n            self.status = self.false_case_message\n            self.iterate_and_stop_once(\"true_result\")\n            return self.false_case_message\n\n        self.iterate_and_stop_once(\"false_result\")\n        return Message(content=\"\")\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None) -> dict:\n        if field_name == \"operator\":\n            if field_value == \"regex\":\n                build_config.pop(\"case_sensitive\", None)\n            elif \"case_sensitive\" not in build_config:\n                case_sensitive_input = next(\n                    (input_field for input_field in self.inputs if input_field.name == \"case_sensitive\"), None\n                )\n                if case_sensitive_input:\n                    build_config[\"case_sensitive\"] = case_sensitive_input.to_dict()\n        return build_config\n"
               },
               "default_route": {
                 "_input_type": "DropdownInput",
@@ -688,110 +685,6 @@
       },
       {
         "data": {
-          "id": "TextOutput-C3unq",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Sends text output via API.",
-            "display_name": "Text Output",
-            "documentation": "https://docs.langflow.org/components-io#text-output",
-            "edited": false,
-            "field_order": [
-              "input_value"
-            ],
-            "frozen": false,
-            "icon": "type",
-            "legacy": false,
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Output Text",
-                "group_outputs": false,
-                "method": "text_response",
-                "name": "text",
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
-              },
-              "input_value": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "copy_field": false,
-                "display_name": "Inputs",
-                "dynamic": false,
-                "info": "Text to be passed as output.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "input_value",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "TextOutput"
-        },
-        "dragging": false,
-        "id": "TextOutput-C3unq",
-        "measured": {
-          "height": 203,
-          "width": 320
-        },
-        "position": {
-          "x": 3213.8481487219383,
-          "y": 2157.902885810099
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
           "id": "TextOutput-lGQ2E",
           "node": {
             "base_classes": [
@@ -810,6 +703,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -1217,8 +1111,8 @@
           "width": 320
         },
         "position": {
-          "x": 2503.4557235796055,
-          "y": 2698.5545890735025
+          "x": 2504.875497951338,
+          "y": 2692.875491586573
         },
         "selected": false,
         "type": "genericNode"
@@ -1426,7 +1320,7 @@
             ],
             "frozen": false,
             "icon": "table",
-            "last_updated": "2025-11-25T18:06:59.149Z",
+            "last_updated": "2025-11-26T20:25:00.297Z",
             "legacy": false,
             "lf_version": "1.6.8",
             "metadata": {},
@@ -1794,12 +1688,116 @@
         },
         "selected": false,
         "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextOutput-GRvnY",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Sends text output via API.",
+            "display_name": "Text Output",
+            "documentation": "https://docs.langflow.org/components-io#text-output",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Text to be passed as output.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextOutput"
+        },
+        "dragging": false,
+        "id": "TextOutput-GRvnY",
+        "measured": {
+          "height": 203,
+          "width": 320
+        },
+        "position": {
+          "x": 3219.4697943640303,
+          "y": 2211.031177500027
+        },
+        "selected": false,
+        "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": -1195.94987456671,
-      "y": -1343.1751792288721,
-      "zoom": 0.7043372664769454
+      "x": -1292.9022430184145,
+      "y": -1372.0787960828814,
+      "zoom": 0.7078501705491497
     }
   },
   "description": "Get prompt and if length is less than context window, pass prompt unchanged. Else, pass clipped prompt.",

@@ -127,47 +127,19 @@
           },
           "targetHandle": {
             "fieldName": "TextInput-tFMsA~input_value",
-            "id": "RunFlow-KMa2f",
+            "id": "RunFlow-DPIQU",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__Prompt-Skx3V{œdataTypeœ:œPromptœ,œidœ:œPrompt-Skx3Vœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-RunFlow-KMa2f{œfieldNameœ:œTextInput-tFMsA~input_valueœ,œidœ:œRunFlow-KMa2fœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__Prompt-Skx3V{œdataTypeœ:œPromptœ,œidœ:œPrompt-Skx3Vœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-RunFlow-DPIQU{œfieldNameœ:œTextInput-tFMsA~input_valueœ,œidœ:œRunFlow-DPIQUœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "Prompt-Skx3V",
         "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-Skx3Vœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "RunFlow-KMa2f",
-        "targetHandle": "{œfieldNameœ:œTextInput-tFMsA~input_valueœ,œidœ:œRunFlow-KMa2fœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "RunFlow",
-            "id": "RunFlow-KMa2f",
-            "name": "flow_outputs_message",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "LMStudioModel-CtdOf",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__RunFlow-KMa2f{œdataTypeœ:œRunFlowœ,œidœ:œRunFlow-KMa2fœ,œnameœ:œflow_outputs_messageœ,œoutput_typesœ:[œMessageœ]}-LMStudioModel-CtdOf{œfieldNameœ:œinput_valueœ,œidœ:œLMStudioModel-CtdOfœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "RunFlow-KMa2f",
-        "sourceHandle": "{œdataTypeœ:œRunFlowœ,œidœ:œRunFlow-KMa2fœ,œnameœ:œflow_outputs_messageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "LMStudioModel-CtdOf",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLMStudioModel-CtdOfœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "target": "RunFlow-DPIQU",
+        "targetHandle": "{œfieldNameœ:œTextInput-tFMsA~input_valueœ,œidœ:œRunFlow-DPIQUœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -183,19 +155,47 @@
           },
           "targetHandle": {
             "fieldName": "TextInput-6K2GL~input_value",
-            "id": "RunFlow-KMa2f",
+            "id": "RunFlow-DPIQU",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__TextInput-ODNox{œdataTypeœ:œTextInputœ,œidœ:œTextInput-ODNoxœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-RunFlow-KMa2f{œfieldNameœ:œTextInput-6K2GL~input_valueœ,œidœ:œRunFlow-KMa2fœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__TextInput-ODNox{œdataTypeœ:œTextInputœ,œidœ:œTextInput-ODNoxœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-RunFlow-DPIQU{œfieldNameœ:œTextInput-6K2GL~input_valueœ,œidœ:œRunFlow-DPIQUœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "TextInput-ODNox",
         "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-ODNoxœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "RunFlow-KMa2f",
-        "targetHandle": "{œfieldNameœ:œTextInput-6K2GL~input_valueœ,œidœ:œRunFlow-KMa2fœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "target": "RunFlow-DPIQU",
+        "targetHandle": "{œfieldNameœ:œTextInput-6K2GL~input_valueœ,œidœ:œRunFlow-DPIQUœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "RunFlow",
+            "id": "RunFlow-DPIQU",
+            "name": "flow_outputs_message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "LMStudioModel-CtdOf",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__RunFlow-DPIQU{œdataTypeœ:œRunFlowœ,œidœ:œRunFlow-DPIQUœ,œnameœ:œflow_outputs_messageœ,œoutput_typesœ:[œMessageœ]}-LMStudioModel-CtdOf{œfieldNameœ:œinput_valueœ,œidœ:œLMStudioModel-CtdOfœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "RunFlow-DPIQU",
+        "sourceHandle": "{œdataTypeœ:œRunFlowœ,œidœ:œRunFlow-DPIQUœ,œnameœ:œflow_outputs_messageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "LMStudioModel-CtdOf",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLMStudioModel-CtdOfœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       }
     ],
     "nodes": [
@@ -232,6 +232,7 @@
             "is_input": null,
             "is_output": null,
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {
               "code_hash": "3bf0b511e227",
               "module": "langflow.components.prompts.prompt.PromptComponent"
@@ -361,7 +362,7 @@
                 "title_case": false,
                 "trace_as_input": true,
                 "type": "prompt",
-                "value": "You will be given a query and a message history. Create {query_number} different, appropriate queries for separate semantic searches based on this context.\n\n---\n\nOutput your response as the following. Do not add any extra headers, comments, or explanations. Just output the three separate search queries separated by '---'.\n\nAdd search query 1 here.\n---\nAdd search query 2 here.\n---\nAdd search query 3 here.\n\n---\n\nHere is the query: {query}\nHere is the message history: {history}\n"
+                "value": "You will be given a query and a message history. Create {query_number} different, appropriate queries for separate semantic searches based on this context.\n\n---\n\nOutput your response as the following. Do not add any extra headers, comments, or explanations. Just output the separate search queries separated by '---'. For example, for N queries:\n\nAdd search query 1 here.\n---\nAdd search query 2 here.\n---\nAdd search query 2 here.\n---\n...\n---\nAdd search query N here.\n\n---\n\nHere is the query: {query}\nHere is the message history: {history}\n"
               },
               "tool_placeholder": {
                 "_input_type": "MessageTextInput",
@@ -754,6 +755,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -858,6 +860,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -962,6 +965,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -1066,6 +1070,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -1147,12 +1152,117 @@
           "x": 4153.081484168452,
           "y": 1011.3320574956884
         },
+        "selected": true,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-ODNox",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get the context window of the LLM.",
+            "display_name": "Context Window",
+            "documentation": "https://docs.langflow.org/components-io#text-input",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.6.8",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "4096"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-ODNox",
+        "measured": {
+          "height": 203,
+          "width": 320
+        },
+        "position": {
+          "x": 3067.3841888684206,
+          "y": 446.84627631274003
+        },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "RunFlow-KMa2f",
+          "id": "RunFlow-DPIQU",
           "node": {
             "base_classes": [
               "Data",
@@ -1172,8 +1282,9 @@
             ],
             "frozen": false,
             "icon": "Workflow",
-            "last_updated": "2025-11-25T16:58:05.546Z",
+            "last_updated": "2025-11-26T19:51:57.723Z",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -1279,7 +1390,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": ""
+                "value": "You will be given a report with two sections: Search report and Insights. Your job is to summarize the Insights section. Replace the Insights section with the new summary.\nHere is the: Report: Search report:\nThe key components and steps involved in building a model for diabetic retinopathy classification, based on the provided context, are as follows:\n\nImporting necessary libraries: Essential Python libraries such as TensorFlow, NumPy, Pandas, Matplotlib, Seaborn, and OpenCV are imported to support data manipulation, model development, and visualization [1].\nLoading and preparing the dataset: The training data is loaded from a specified directory (/kaggle/input/diabetic-retinopathy-classification-2/retina-train). Image file paths and corresponding labels are extracted by parsing filenames, with the label inferred from the last character of the filename [1].\nData preprocessing and augmentation: Image data is preprocessed and augmented using ImageDataGenerator from TensorFlow Keras, applying transformations such as rescaling, rotation, and horizontal flipping to enhance model generalization and robustness [1].\nDefining the model architecture: A convolutional neural network (CNN) is designed using tensorflow.keras layers, incorporating convolutional, pooling, and dense layers to effectively classify retinal images into different stages of diabetic retinopathy [1].\nCompiling the model: The model is compiled with the Adamax optimizer, categorical crossentropy loss function, and accuracy as the evaluation metric to guide training and assess performance [1].\nTraining the model: The model is trained using the prepared training dataset, with validation data used to monitor performance and prevent overfitting during the training process [1].\nEvaluating performance: Post-training, model performance is evaluated using classification reports and confusion matrices to analyze precision, recall, and F1-score, providing insights into classification accuracy across different stages [1].\nData visualization and analysis: Visual tools such as confusion matrices and classification reports are generated using Matplotlib and Seaborn to interpret model outcomes and identify patterns of misclassification [2].\nCustom dataset handling: A custom dataset class (CustomDataset) is implemented to efficiently load images and labels, supporting various image formats and enabling flexible data loading for both training and validation [2].\nUsing PyTorch for data handling: The dataset is loaded using PyTorch’s Dataset and DataLoader classes, which allow for random data splitting and application of transformations such as resizing and normalization, enhancing data pipeline flexibility [2].\n[1]: Diabetic Retinopathy Classification Problem\n[2]: Diabetic Retinopathy Data Analysis Visualization\nInsights:\nContextual Relevance of the Documents: The provided documents focus on foundational aspects of building a diabetic retinopathy classification model using classical deep learning pipelines—primarily with TensorFlow and PyTorch. These resources are useful for understanding the technical workflow: data loading, preprocessing, model architecture, training, and evaluation. However, they are limited to traditional CNN-based approaches and do not reflect the most recent advancements in AI, such as vision transformers (ViTs), self-supervised learning, or multimodal fusion techniques.\nLimitations of the Search Report: While the report outlines a solid pipeline for training a CNN-based model, it lacks critical modern components essential for building a reliable and state-of-the-art model. For instance:\nIt does not mention transfer learning with modern backbones (e.g., ResNet50, EfficientNet, Vision Transformers like ViT-Base or Swin-T), which are now standard for medical image classification due to their ability to generalize from limited labeled data."
               },
               "_type": "Component",
               "code": {
@@ -1329,9 +1440,12 @@
                   "parse-search-results",
                   "parse-sections",
                   "memory-context-summary",
-                  "rag-milvus-lm-studio-adv",
+                  "rag-milvus-lm-studio-adv 1",
                   "prompt-clip",
-                  "parse-sources"
+                  "parse-sources",
+                  "rag-milvus-lm-studio (1)",
+                  "rag-milvus-lm-studio-adv",
+                  "data-ingestion"
                 ],
                 "options_metadata": [],
                 "placeholder": "",
@@ -1390,7 +1504,7 @@
                     "sender_name": null,
                     "session_id": "",
                     "text": "",
-                    "timestamp": "2025-11-25 15:59:00 UTC"
+                    "timestamp": "2025-11-26 19:46:19 UTC"
                   },
                   "default_value": "",
                   "text_key": "text"
@@ -1403,126 +1517,22 @@
           "type": "RunFlow"
         },
         "dragging": false,
-        "id": "RunFlow-KMa2f",
+        "id": "RunFlow-DPIQU",
         "measured": {
           "height": 487,
           "width": 320
         },
         "position": {
-          "x": 3437.8172676574786,
-          "y": 727.2537861530631
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "TextInput-ODNox",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Get the context window of the LLM.",
-            "display_name": "Context Window",
-            "documentation": "https://docs.langflow.org/components-io#text-input",
-            "edited": false,
-            "field_order": [
-              "input_value"
-            ],
-            "frozen": false,
-            "icon": "type",
-            "legacy": false,
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Output Text",
-                "group_outputs": false,
-                "method": "text_response",
-                "name": "text",
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
-              },
-              "input_value": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "copy_field": false,
-                "display_name": "Text",
-                "dynamic": false,
-                "info": "Text to be passed as input.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "input_value",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "4096"
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "TextInput"
-        },
-        "dragging": false,
-        "id": "TextInput-ODNox",
-        "measured": {
-          "height": 203,
-          "width": 320
-        },
-        "position": {
-          "x": 3067.3841888684206,
-          "y": 446.84627631274003
+          "x": 3438.2327937701475,
+          "y": 724.2749775330697
         },
         "selected": false,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": -2030.4201383019567,
-      "y": -304.3375791198669,
+      "x": -2065.4201383019567,
+      "y": -300.33757911986686,
       "zoom": 0.8051317980788947
     }
   },

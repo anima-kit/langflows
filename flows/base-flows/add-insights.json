@@ -6,120 +6,8 @@
         "className": "",
         "data": {
           "sourceHandle": {
-            "dataType": "TextInput",
-            "id": "TextInput-3oHh2",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "history",
-            "id": "Prompt-Skx3V",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__TextInput-3oHh2{œdataTypeœ:œTextInputœ,œidœ:œTextInput-3oHh2œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-Skx3V{œfieldNameœ:œhistoryœ,œidœ:œPrompt-Skx3Vœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "TextInput-3oHh2",
-        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-3oHh2œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-Skx3V",
-        "targetHandle": "{œfieldNameœ:œhistoryœ,œidœ:œPrompt-Skx3Vœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "TextInput",
-            "id": "TextInput-Sexsh",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "query",
-            "id": "Prompt-Skx3V",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__TextInput-Sexsh{œdataTypeœ:œTextInputœ,œidœ:œTextInput-Sexshœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-Skx3V{œfieldNameœ:œqueryœ,œidœ:œPrompt-Skx3Vœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "TextInput-Sexsh",
-        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-Sexshœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-Skx3V",
-        "targetHandle": "{œfieldNameœ:œqueryœ,œidœ:œPrompt-Skx3Vœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "TextInput",
-            "id": "TextInput-pHNeT",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "query_number",
-            "id": "Prompt-Skx3V",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__TextInput-pHNeT{œdataTypeœ:œTextInputœ,œidœ:œTextInput-pHNeTœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-Skx3V{œfieldNameœ:œquery_numberœ,œidœ:œPrompt-Skx3Vœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "TextInput-pHNeT",
-        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-pHNeTœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-Skx3V",
-        "targetHandle": "{œfieldNameœ:œquery_numberœ,œidœ:œPrompt-Skx3Vœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "LMStudioModel",
-            "id": "LMStudioModel-CtdOf",
-            "name": "text_output",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "TextOutput-vKaLe",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__LMStudioModel-CtdOf{œdataTypeœ:œLMStudioModelœ,œidœ:œLMStudioModel-CtdOfœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-TextOutput-vKaLe{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-vKaLeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "LMStudioModel-CtdOf",
-        "sourceHandle": "{œdataTypeœ:œLMStudioModelœ,œidœ:œLMStudioModel-CtdOfœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "TextOutput-vKaLe",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-vKaLeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "Prompt",
-            "id": "Prompt-Skx3V",
+            "dataType": "Prompt Template",
+            "id": "Prompt Template-FXoXn",
             "name": "prompt",
             "output_types": [
               "Message"
@@ -127,47 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "TextInput-tFMsA~input_value",
-            "id": "RunFlow-DPIQU",
+            "id": "RunFlow-7V2wZ",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__Prompt-Skx3V{œdataTypeœ:œPromptœ,œidœ:œPrompt-Skx3Vœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-RunFlow-DPIQU{œfieldNameœ:œTextInput-tFMsA~input_valueœ,œidœ:œRunFlow-DPIQUœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__Prompt Template-FXoXn{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-FXoXnœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-RunFlow-7V2wZ{œfieldNameœ:œTextInput-tFMsA~input_valueœ,œidœ:œRunFlow-7V2wZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Prompt-Skx3V",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-Skx3Vœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "RunFlow-DPIQU",
-        "targetHandle": "{œfieldNameœ:œTextInput-tFMsA~input_valueœ,œidœ:œRunFlow-DPIQUœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "TextInput",
-            "id": "TextInput-ODNox",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "TextInput-6K2GL~input_value",
-            "id": "RunFlow-DPIQU",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "xy-edge__TextInput-ODNox{œdataTypeœ:œTextInputœ,œidœ:œTextInput-ODNoxœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-RunFlow-DPIQU{œfieldNameœ:œTextInput-6K2GL~input_valueœ,œidœ:œRunFlow-DPIQUœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "TextInput-ODNox",
-        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-ODNoxœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "RunFlow-DPIQU",
-        "targetHandle": "{œfieldNameœ:œTextInput-6K2GL~input_valueœ,œidœ:œRunFlow-DPIQUœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Prompt Template-FXoXn",
+        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-FXoXnœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "RunFlow-7V2wZ",
+        "targetHandle": "{œfieldNameœ:œTextInput-tFMsA~input_valueœ,œidœ:œRunFlow-7V2wZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -175,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "RunFlow",
-            "id": "RunFlow-DPIQU",
+            "id": "RunFlow-7V2wZ",
             "name": "flow_outputs_message",
             "output_types": [
               "Message"
@@ -183,27 +43,165 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "LMStudioModel-CtdOf",
+            "id": "LMStudioModel-yOmXK",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__RunFlow-DPIQU{œdataTypeœ:œRunFlowœ,œidœ:œRunFlow-DPIQUœ,œnameœ:œflow_outputs_messageœ,œoutput_typesœ:[œMessageœ]}-LMStudioModel-CtdOf{œfieldNameœ:œinput_valueœ,œidœ:œLMStudioModel-CtdOfœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__RunFlow-7V2wZ{œdataTypeœ:œRunFlowœ,œidœ:œRunFlow-7V2wZœ,œnameœ:œflow_outputs_messageœ,œoutput_typesœ:[œMessageœ]}-LMStudioModel-yOmXK{œfieldNameœ:œinput_valueœ,œidœ:œLMStudioModel-yOmXKœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "RunFlow-DPIQU",
-        "sourceHandle": "{œdataTypeœ:œRunFlowœ,œidœ:œRunFlow-DPIQUœ,œnameœ:œflow_outputs_messageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "LMStudioModel-CtdOf",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLMStudioModel-CtdOfœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "RunFlow-7V2wZ",
+        "sourceHandle": "{œdataTypeœ:œRunFlowœ,œidœ:œRunFlow-7V2wZœ,œnameœ:œflow_outputs_messageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "LMStudioModel-yOmXK",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLMStudioModel-yOmXKœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-XTnCT",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "history",
+            "id": "Prompt Template-FXoXn",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-XTnCT{œdataTypeœ:œTextInputœ,œidœ:œTextInput-XTnCTœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-FXoXn{œfieldNameœ:œhistoryœ,œidœ:œPrompt Template-FXoXnœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-XTnCT",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-XTnCTœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-FXoXn",
+        "targetHandle": "{œfieldNameœ:œhistoryœ,œidœ:œPrompt Template-FXoXnœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-fv4Xh",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "question",
+            "id": "Prompt Template-FXoXn",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-fv4Xh{œdataTypeœ:œTextInputœ,œidœ:œTextInput-fv4Xhœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-FXoXn{œfieldNameœ:œquestionœ,œidœ:œPrompt Template-FXoXnœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-fv4Xh",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-fv4Xhœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-FXoXn",
+        "targetHandle": "{œfieldNameœ:œquestionœ,œidœ:œPrompt Template-FXoXnœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-juI4f",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "search_report",
+            "id": "Prompt Template-FXoXn",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-juI4f{œdataTypeœ:œTextInputœ,œidœ:œTextInput-juI4fœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-FXoXn{œfieldNameœ:œsearch_reportœ,œidœ:œPrompt Template-FXoXnœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-juI4f",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-juI4fœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-FXoXn",
+        "targetHandle": "{œfieldNameœ:œsearch_reportœ,œidœ:œPrompt Template-FXoXnœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LMStudioModel",
+            "id": "LMStudioModel-yOmXK",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "TextOutput-x0Jat",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__LMStudioModel-yOmXK{œdataTypeœ:œLMStudioModelœ,œidœ:œLMStudioModel-yOmXKœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-TextOutput-x0Jat{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-x0Jatœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "LMStudioModel-yOmXK",
+        "sourceHandle": "{œdataTypeœ:œLMStudioModelœ,œidœ:œLMStudioModel-yOmXKœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextOutput-x0Jat",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-x0Jatœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-JpXXT",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "TextInput-6K2GL~input_value",
+            "id": "RunFlow-7V2wZ",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-JpXXT{œdataTypeœ:œTextInputœ,œidœ:œTextInput-JpXXTœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-RunFlow-7V2wZ{œfieldNameœ:œTextInput-6K2GL~input_valueœ,œidœ:œRunFlow-7V2wZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-JpXXT",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-JpXXTœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "RunFlow-7V2wZ",
+        "targetHandle": "{œfieldNameœ:œTextInput-6K2GL~input_valueœ,œidœ:œRunFlow-7V2wZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "description": "Create a prompt template with dynamic variables.",
-          "display_name": "Prompt",
-          "id": "Prompt-Skx3V",
+          "id": "Prompt Template-FXoXn",
           "node": {
             "base_classes": [
               "Message"
@@ -212,18 +210,19 @@
             "conditional_paths": [],
             "custom_fields": {
               "template": [
-                "query_number",
-                "query",
+                "search_report",
+                "question",
                 "history"
               ]
             },
             "description": "Create a prompt template with dynamic variables.",
-            "display_name": "Prompt",
-            "documentation": "",
+            "display_name": "Prompt Template",
+            "documentation": "https://docs.langflow.org/components-prompts",
             "edited": false,
             "error": null,
             "field_order": [
-              "template"
+              "template",
+              "tool_placeholder"
             ],
             "frozen": false,
             "full_path": null,
@@ -233,10 +232,7 @@
             "is_output": null,
             "legacy": false,
             "lf_version": "1.6.8",
-            "metadata": {
-              "code_hash": "3bf0b511e227",
-              "module": "langflow.components.prompts.prompt.PromptComponent"
-            },
+            "metadata": {},
             "minimized": false,
             "name": "",
             "output_types": [],
@@ -260,7 +256,7 @@
               }
             ],
             "pinned": false,
-            "priority": null,
+            "priority": 0,
             "replacement": null,
             "template": {
               "_type": "Component",
@@ -280,7 +276,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from langflow.base.prompts.api_utils import process_prompt_template\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.inputs.inputs import DefaultPromptField\nfrom langflow.io import MessageTextInput, Output, PromptInput\nfrom langflow.schema.message import Message\nfrom langflow.template.utils import update_template_values\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    icon = \"braces\"\n    trace_type = \"prompt\"\n    name = \"Prompt\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    async def build_prompt(self) -> Message:\n        prompt = Message.from_template(**self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        custom_fields = frontend_node[\"custom_fields\"]\n        frontend_node_template = frontend_node[\"template\"]\n        _ = process_prompt_template(\n            template=prompt_template,\n            name=\"template\",\n            custom_fields=custom_fields,\n            frontend_node_template=frontend_node_template,\n        )\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        # Kept it duplicated for backwards compatibility\n        _ = process_prompt_template(\n            template=template,\n            name=\"template\",\n            custom_fields=frontend_node[\"custom_fields\"],\n            frontend_node_template=frontend_node[\"template\"],\n        )\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+                "value": "from langflow.base.prompts.api_utils import process_prompt_template\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.inputs.inputs import DefaultPromptField\nfrom langflow.io import MessageTextInput, Output, PromptInput\nfrom langflow.schema.message import Message\nfrom langflow.template.utils import update_template_values\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt Template\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    documentation: str = \"https://docs.langflow.org/components-prompts\"\n    icon = \"braces\"\n    trace_type = \"prompt\"\n    name = \"Prompt Template\"\n    priority = 0  # Set priority to 0 to make it appear first\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    async def build_prompt(self) -> Message:\n        prompt = Message.from_template(**self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        custom_fields = frontend_node[\"custom_fields\"]\n        frontend_node_template = frontend_node[\"template\"]\n        _ = process_prompt_template(\n            template=prompt_template,\n            name=\"template\",\n            custom_fields=custom_fields,\n            frontend_node_template=frontend_node_template,\n        )\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        # Kept it duplicated for backwards compatibility\n        _ = process_prompt_template(\n            template=template,\n            name=\"template\",\n            custom_fields=frontend_node[\"custom_fields\"],\n            frontend_node_template=frontend_node[\"template\"],\n        )\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
               },
               "history": {
                 "advanced": false,
@@ -304,9 +300,9 @@
                 "type": "str",
                 "value": ""
               },
-              "query": {
+              "question": {
                 "advanced": false,
-                "display_name": "query",
+                "display_name": "question",
                 "dynamic": false,
                 "field_type": "str",
                 "fileTypes": [],
@@ -318,7 +314,7 @@
                 "list": false,
                 "load_from_db": false,
                 "multiline": true,
-                "name": "query",
+                "name": "question",
                 "placeholder": "",
                 "required": false,
                 "show": true,
@@ -326,9 +322,9 @@
                 "type": "str",
                 "value": ""
               },
-              "query_number": {
+              "search_report": {
                 "advanced": false,
-                "display_name": "query_number",
+                "display_name": "search_report",
                 "dynamic": false,
                 "field_type": "str",
                 "fileTypes": [],
@@ -340,7 +336,7 @@
                 "list": false,
                 "load_from_db": false,
                 "multiline": true,
-                "name": "query_number",
+                "name": "search_report",
                 "placeholder": "",
                 "required": false,
                 "show": true,
@@ -349,20 +345,22 @@
                 "value": ""
               },
               "template": {
+                "_input_type": "PromptInput",
                 "advanced": false,
                 "display_name": "Template",
                 "dynamic": false,
                 "info": "",
                 "list": false,
-                "load_from_db": false,
+                "list_add_label": "Add More",
                 "name": "template",
                 "placeholder": "",
                 "required": false,
                 "show": true,
                 "title_case": false,
+                "tool_mode": false,
                 "trace_as_input": true,
                 "type": "prompt",
-                "value": "You will be given a query and a message history. Create {query_number} different, appropriate queries for separate semantic searches based on this context.\n\n---\n\nOutput your response as the following. Do not add any extra headers, comments, or explanations. Just output the separate search queries separated by '---'. For example, for N queries:\n\nAdd search query 1 here.\n---\nAdd search query 2 here.\n---\nAdd search query 2 here.\n---\n...\n---\nAdd search query N here.\n\n---\n\nHere is the query: {query}\nHere is the message history: {history}\n"
+                "value": "You will be given a search report and a user question. The search report has been created by using a semantic search on documents in a vectorstore based on the user question.\nHowever, this report may not have covered the question sufficiently due to lack of information in the retrieved documents.\nYour job is to add to the search report based on your knowledge bank so that the user's question is answered more sufficiently.\nYou should keep the search report in tact with the appropriate sources, then add your insights below the search report. Create your insights by following the steps:\n\n1.  Think about how the user's question related to the user's documents. What are these documents used for and why is the user trying to retrieve information from them?\n2.  Think about the search report. What is included and how does it relate to the user's question? What insights can the user gain from this search report?\n3.  Think about what insights are missing from the search report. What else could the user be aware of that would help them gain clarity?\n4.  Create your insights as a brief summary of all of these thoughts.\n\nFormat your response as:\n\nSearch report: \nInsights: \n\n---\n\nHere is the:\n\nSearch Report: {search_report}\nQuestion: {question}\nMessage History: {history}"
               },
               "tool_placeholder": {
                 "_input_type": "MessageTextInput",
@@ -374,6 +372,7 @@
                   "Message"
                 ],
                 "list": false,
+                "list_add_label": "Add More",
                 "load_from_db": false,
                 "name": "tool_placeholder",
                 "placeholder": "",
@@ -389,31 +388,32 @@
             },
             "tool_mode": false
           },
-          "selected_output": "prompt",
-          "type": "Prompt"
+          "showNode": true,
+          "type": "Prompt Template"
         },
         "dragging": false,
-        "id": "Prompt-Skx3V",
+        "id": "Prompt Template-FXoXn",
         "measured": {
           "height": 529,
           "width": 320
         },
         "position": {
-          "x": 3065.276779597077,
-          "y": 684.8388077234987
+          "x": 4744.584148656595,
+          "y": 1061.7467996352511
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "LMStudioModel-CtdOf",
+          "id": "LMStudioModel-yOmXK",
           "node": {
             "base_classes": [
               "LanguageModel",
               "Message"
             ],
             "beta": false,
+            "category": "lmstudio",
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Generate text using LM Studio Local LLMs.",
@@ -434,7 +434,8 @@
             ],
             "frozen": false,
             "icon": "LMStudio",
-            "last_updated": "2025-11-18T12:13:10.340Z",
+            "key": "LMStudioModel",
+            "last_updated": "2025-11-26T19:02:49.225Z",
             "legacy": false,
             "lf_version": "1.6.8",
             "metadata": {
@@ -482,6 +483,7 @@
               }
             ],
             "pinned": false,
+            "score": 0.0006864961215521344,
             "template": {
               "_type": "Component",
               "api_key": {
@@ -614,11 +616,11 @@
                 "info": "",
                 "name": "model_name",
                 "options": [
+                  "qwen/qwen3-30b-a3b-2507",
                   "text-embedding-nomic-embed-text-v1.5",
                   "kimi-vl-a3b-thinking-2506",
                   "qwen/qwen3-vl-30b",
                   "skyfall-31b-v4",
-                  "qwen/qwen3-30b-a3b-2507",
                   "deepseek-r1-distill-qwen-32b",
                   "qwen/qwen3-coder-30b",
                   "openai/gpt-oss-20b",
@@ -723,545 +725,21 @@
           "type": "LMStudioModel"
         },
         "dragging": false,
-        "id": "LMStudioModel-CtdOf",
+        "id": "LMStudioModel-yOmXK",
         "measured": {
           "height": 449,
           "width": 320
         },
         "position": {
-          "x": 3808.2226496595763,
-          "y": 762.2752786641886
+          "x": 5478.860352561666,
+          "y": 1061.3939164764377
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "TextInput-3oHh2",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Get the memory.",
-            "display_name": "Memory",
-            "documentation": "https://docs.langflow.org/components-io#text-input",
-            "edited": false,
-            "field_order": [
-              "input_value"
-            ],
-            "frozen": false,
-            "icon": "type",
-            "legacy": false,
-            "lf_version": "1.6.8",
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Output Text",
-                "group_outputs": false,
-                "method": "text_response",
-                "name": "text",
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
-              },
-              "input_value": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "copy_field": false,
-                "display_name": "Text",
-                "dynamic": false,
-                "info": "Text to be passed as input.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "input_value",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "TextInput"
-        },
-        "dragging": false,
-        "id": "TextInput-3oHh2",
-        "measured": {
-          "height": 203,
-          "width": 320
-        },
-        "position": {
-          "x": 2669.212925023077,
-          "y": 758.7755291065888
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "TextInput-Sexsh",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Get the query.",
-            "display_name": "Query",
-            "documentation": "https://docs.langflow.org/components-io#text-input",
-            "edited": false,
-            "field_order": [
-              "input_value"
-            ],
-            "frozen": false,
-            "icon": "type",
-            "legacy": false,
-            "lf_version": "1.6.8",
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Output Text",
-                "group_outputs": false,
-                "method": "text_response",
-                "name": "text",
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
-              },
-              "input_value": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "copy_field": false,
-                "display_name": "Text",
-                "dynamic": false,
-                "info": "Text to be passed as input.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "input_value",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "medical ai"
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "TextInput"
-        },
-        "dragging": false,
-        "id": "TextInput-Sexsh",
-        "measured": {
-          "height": 203,
-          "width": 320
-        },
-        "position": {
-          "x": 2671.405579263967,
-          "y": 1015.3160752906697
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "TextInput-pHNeT",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Get the query number.",
-            "display_name": "Query Number",
-            "documentation": "https://docs.langflow.org/components-io#text-input",
-            "edited": false,
-            "field_order": [
-              "input_value"
-            ],
-            "frozen": false,
-            "icon": "type",
-            "legacy": false,
-            "lf_version": "1.6.8",
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Output Text",
-                "group_outputs": false,
-                "method": "text_response",
-                "name": "text",
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
-              },
-              "input_value": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "copy_field": false,
-                "display_name": "Text",
-                "dynamic": false,
-                "info": "Text to be passed as input.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "input_value",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "3"
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "TextInput"
-        },
-        "dragging": false,
-        "id": "TextInput-pHNeT",
-        "measured": {
-          "height": 203,
-          "width": 320
-        },
-        "position": {
-          "x": 2665.9239436617427,
-          "y": 509.9092727656215
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "TextOutput-vKaLe",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Sends text output via API.",
-            "display_name": "Text Output",
-            "documentation": "https://docs.langflow.org/components-io#text-output",
-            "edited": false,
-            "field_order": [
-              "input_value"
-            ],
-            "frozen": false,
-            "icon": "type",
-            "legacy": false,
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Output Text",
-                "group_outputs": false,
-                "method": "text_response",
-                "name": "text",
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
-              },
-              "input_value": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "copy_field": false,
-                "display_name": "Inputs",
-                "dynamic": false,
-                "info": "Text to be passed as output.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "input_value",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "TextOutput"
-        },
-        "dragging": false,
-        "id": "TextOutput-vKaLe",
-        "measured": {
-          "height": 203,
-          "width": 320
-        },
-        "position": {
-          "x": 4153.081484168452,
-          "y": 1011.3320574956884
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "TextInput-ODNox",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Get the context window of the LLM.",
-            "display_name": "Context Window",
-            "documentation": "https://docs.langflow.org/components-io#text-input",
-            "edited": false,
-            "field_order": [
-              "input_value"
-            ],
-            "frozen": false,
-            "icon": "type",
-            "legacy": false,
-            "lf_version": "1.6.8",
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Output Text",
-                "group_outputs": false,
-                "method": "text_response",
-                "name": "text",
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
-              },
-              "input_value": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "copy_field": false,
-                "display_name": "Text",
-                "dynamic": false,
-                "info": "Text to be passed as input.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "input_value",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "4096"
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "TextInput"
-        },
-        "dragging": false,
-        "id": "TextInput-ODNox",
-        "measured": {
-          "height": 203,
-          "width": 320
-        },
-        "position": {
-          "x": 3067.3841888684206,
-          "y": 446.84627631274003
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "RunFlow-DPIQU",
+          "id": "RunFlow-7V2wZ",
           "node": {
             "base_classes": [
               "Data",
@@ -1271,8 +749,8 @@
             "beta": true,
             "conditional_paths": [],
             "custom_fields": {},
-            "description": "Creates a tool component from a Flow that takes all its inputs and runs it.  \n **Select a Flow to use the tool mode**",
-            "display_name": "Run Flow",
+            "description": "Clip the prompt to fit inside the context window of the LLM.",
+            "display_name": "Prompt Clip",
             "documentation": "https://docs.langflow.org/components-logic#run-flow",
             "edited": false,
             "field_order": [
@@ -1281,11 +759,12 @@
             ],
             "frozen": false,
             "icon": "Workflow",
-            "last_updated": "2025-11-26T19:51:57.723Z",
+            "last_updated": "2025-11-25T16:52:46.072Z",
             "legacy": false,
             "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
+            "official": false,
             "output_types": [],
             "outputs": [
               {
@@ -1389,7 +868,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "You will be given a report with two sections: Search report and Insights. Your job is to summarize the Insights section. Replace the Insights section with the new summary.\nHere is the: Report: Search report:\nThe key components and steps involved in building a model for diabetic retinopathy classification, based on the provided context, are as follows:\n\nImporting necessary libraries: Essential Python libraries such as TensorFlow, NumPy, Pandas, Matplotlib, Seaborn, and OpenCV are imported to support data manipulation, model development, and visualization [1].\nLoading and preparing the dataset: The training data is loaded from a specified directory (/kaggle/input/diabetic-retinopathy-classification-2/retina-train). Image file paths and corresponding labels are extracted by parsing filenames, with the label inferred from the last character of the filename [1].\nData preprocessing and augmentation: Image data is preprocessed and augmented using ImageDataGenerator from TensorFlow Keras, applying transformations such as rescaling, rotation, and horizontal flipping to enhance model generalization and robustness [1].\nDefining the model architecture: A convolutional neural network (CNN) is designed using tensorflow.keras layers, incorporating convolutional, pooling, and dense layers to effectively classify retinal images into different stages of diabetic retinopathy [1].\nCompiling the model: The model is compiled with the Adamax optimizer, categorical crossentropy loss function, and accuracy as the evaluation metric to guide training and assess performance [1].\nTraining the model: The model is trained using the prepared training dataset, with validation data used to monitor performance and prevent overfitting during the training process [1].\nEvaluating performance: Post-training, model performance is evaluated using classification reports and confusion matrices to analyze precision, recall, and F1-score, providing insights into classification accuracy across different stages [1].\nData visualization and analysis: Visual tools such as confusion matrices and classification reports are generated using Matplotlib and Seaborn to interpret model outcomes and identify patterns of misclassification [2].\nCustom dataset handling: A custom dataset class (CustomDataset) is implemented to efficiently load images and labels, supporting various image formats and enabling flexible data loading for both training and validation [2].\nUsing PyTorch for data handling: The dataset is loaded using PyTorch’s Dataset and DataLoader classes, which allow for random data splitting and application of transformations such as resizing and normalization, enhancing data pipeline flexibility [2].\n[1]: Diabetic Retinopathy Classification Problem\n[2]: Diabetic Retinopathy Data Analysis Visualization\nInsights:\nContextual Relevance of the Documents: The provided documents focus on foundational aspects of building a diabetic retinopathy classification model using classical deep learning pipelines—primarily with TensorFlow and PyTorch. These resources are useful for understanding the technical workflow: data loading, preprocessing, model architecture, training, and evaluation. However, they are limited to traditional CNN-based approaches and do not reflect the most recent advancements in AI, such as vision transformers (ViTs), self-supervised learning, or multimodal fusion techniques.\nLimitations of the Search Report: While the report outlines a solid pipeline for training a CNN-based model, it lacks critical modern components essential for building a reliable and state-of-the-art model. For instance:\nIt does not mention transfer learning with modern backbones (e.g., ResNet50, EfficientNet, Vision Transformers like ViT-Base or Swin-T), which are now standard for medical image classification due to their ability to generalize from limited labeled data."
+                "value": ""
               },
               "_type": "Component",
               "code": {
@@ -1439,12 +918,9 @@
                   "parse-search-results",
                   "parse-sections",
                   "memory-context-summary",
-                  "rag-milvus-lm-studio-adv 1",
-                  "prompt-clip",
-                  "parse-sources",
-                  "rag-milvus-lm-studio (1)",
                   "rag-milvus-lm-studio-adv",
-                  "data-ingestion"
+                  "prompt-clip",
+                  "parse-sources"
                 ],
                 "options_metadata": [],
                 "placeholder": "",
@@ -1503,7 +979,7 @@
                     "sender_name": null,
                     "session_id": "",
                     "text": "",
-                    "timestamp": "2025-11-26 19:46:19 UTC"
+                    "timestamp": "2025-11-25 15:59:00 UTC"
                   },
                   "default_value": "",
                   "text_key": "text"
@@ -1516,31 +992,555 @@
           "type": "RunFlow"
         },
         "dragging": false,
-        "id": "RunFlow-DPIQU",
+        "id": "RunFlow-7V2wZ",
         "measured": {
-          "height": 487,
+          "height": 471,
           "width": 320
         },
         "position": {
-          "x": 3438.2327937701475,
-          "y": 724.2749775330697
+          "x": 5119.348995766254,
+          "y": 1037.7062285379625
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-XTnCT",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get the memory.",
+            "display_name": "Memory",
+            "documentation": "https://docs.langflow.org/components-io#text-input",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "official": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-XTnCT",
+        "measured": {
+          "height": 203,
+          "width": 320
+        },
+        "position": {
+          "x": 4341.094255363524,
+          "y": 1062.8319027267205
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-fv4Xh",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get the query.",
+            "display_name": "Query",
+            "documentation": "https://docs.langflow.org/components-io#text-input",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "official": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-fv4Xh",
+        "measured": {
+          "height": 203,
+          "width": 320
+        },
+        "position": {
+          "x": 4344.726471066386,
+          "y": 1333.4319725899702
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-juI4f",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get the search report.",
+            "display_name": "Search Report",
+            "documentation": "https://docs.langflow.org/components-io#text-input",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "official": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-juI4f",
+        "measured": {
+          "height": 203,
+          "width": 320
+        },
+        "position": {
+          "x": 4341.094255363524,
+          "y": 1645.8025230361382
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextOutput-x0Jat",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Sends text output via API.",
+            "display_name": "Text Output",
+            "documentation": "https://docs.langflow.org/components-io#text-output",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Text to be passed as output.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextOutput"
+        },
+        "dragging": false,
+        "id": "TextOutput-x0Jat",
+        "measured": {
+          "height": 203,
+          "width": 320
+        },
+        "position": {
+          "x": 5846.647664199993,
+          "y": 1302.5581391156397
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-JpXXT",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get the context window of the LLM.",
+            "display_name": "Context Window",
+            "documentation": "https://docs.langflow.org/components-io#text-input",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "official": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-JpXXT",
+        "measured": {
+          "height": 203,
+          "width": 320
+        },
+        "position": {
+          "x": 4755.3707303408655,
+          "y": 837.2929689630463
         },
         "selected": false,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": -2023.4201383019567,
-      "y": -263.33757911986686,
-      "zoom": 0.8051317980788947
+      "x": -3384.9359822725937,
+      "y": -621.179197929207,
+      "zoom": 0.7968288552040294
     }
   },
-  "description": "Create semantic search queries using LM Studio LLM.",
+  "description": "Add insights to a documents search report using an LM Studio LLM.\n\nPrompt is clipped to fit inside context window of LLM.",
   "endpoint_name": null,
-  "id": "4f9bb10d-7d05-4a57-bf32-9cd50df5031b",
+  "id": "9d62649a-4382-4eff-9aad-9ae28eb252f2",
   "is_component": false,
   "last_tested_version": "1.6.8",
-  "name": "query-creator",
+  "name": "add-insights",
   "tags": [
     "openai",
     "astradb",

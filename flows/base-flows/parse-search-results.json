@@ -232,6 +232,7 @@
             "is_input": null,
             "is_output": null,
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {
               "code_hash": "3bf0b511e227",
               "module": "langflow.components.prompts.prompt.PromptComponent"
@@ -361,7 +362,7 @@
                 "title_case": false,
                 "trace_as_input": true,
                 "type": "prompt",
-                "value": "You will be given context as a list of content and sources defined as `text` and `source`. \nGiven the `text`, respond to the `question` by following the steps:\n\n1.  List all sources at the end of your response.\n\n    - Give each source cited an integer number starting from 1 and ending with the number of sources. \n    - Only add sources defined from `source` and no others. \n    - If a source is included inside the `text` content, but is not defined as a `source`, omit it from your response completely. \n\nFormat your list as:\n\n[1]: Source 1\n[2]: Source 2\n...\n[N]: Source N\n\n2. Create your response and add all source numbers (i.e. [1], [2], [1] [2], etc.) to the end of each statement or paragraph for which the source was used.\n3. Read over your final response and omit any sources not used in the end.\n\n---\n\nContext: {context}\nQuestion: {question}\nAnswer: \n\n---\n\nMessage History: {history}"
+                "value": "You will be given context as a list of content and sources defined as `text` and `source`. \nGiven the `text`, respond to the `question` by following the steps:\n\n1.  List all sources at the end of your response.\n\n    - Give each source cited an integer number starting from 1 and ending with the number of sources. \n    - Only add sources defined from `source` and no others. \n    - If a source is included inside the `text` content, but is not defined as a `source`, omit it from your response completely. \n\nFormat your list as:\n\n[1]: Source 1\n[2]: Source 2\n...\n[N]: Source N\n\n2. Create your response and add all source numbers (i.e. [1], [2], [1] [2], etc.) to the end of each statement or paragraph for which the source was used.\n3. At the top of your response, add the question.\n4. Read over your final response and omit any sources not used in the end.\n\nIf the context is empty, just inform the user that the information was not passed correctly.\n\n---\n\nContext: {context}\nQuestion: {question}\nAnswer: \n\n---\n\nMessage History: {history}"
               },
               "tool_placeholder": {
                 "_input_type": "MessageTextInput",
@@ -1174,6 +1175,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "official": false,

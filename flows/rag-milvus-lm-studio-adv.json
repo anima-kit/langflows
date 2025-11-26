@@ -2005,7 +2005,7 @@
           "x": 3204.3768253160038,
           "y": 1327.2886989004876
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       },
       {
@@ -2353,7 +2353,7 @@
             ],
             "frozen": false,
             "icon": "LMStudio",
-            "last_updated": "2025-11-26T20:13:14.617Z",
+            "last_updated": "2025-11-26T20:20:40.107Z",
             "legacy": false,
             "lf_version": "1.6.8",
             "metadata": {},
@@ -5747,9 +5747,9 @@
       }
     ],
     "viewport": {
-      "x": -741.2942032513968,
-      "y": -348.47909635547626,
-      "zoom": 0.44673323428655104
+      "x": -710.1348512374977,
+      "y": -346.2298129834353,
+      "zoom": 0.44673323428655115
     }
   },
   "description": "Chat with an LM Studio LLM about your documents stored in Milvus. \n\nUse the example medical AI research documents. Add more research as PDFs or web pages to Milvus vector store.",

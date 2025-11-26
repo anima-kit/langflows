@@ -924,7 +924,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "medical ai"
+                "value": ""
               }
             },
             "tool_mode": false
@@ -1070,6 +1070,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -1151,7 +1152,7 @@
           "x": 4153.081484168452,
           "y": 1011.3320574956884
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
       },
       {
@@ -1530,8 +1531,8 @@
       }
     ],
     "viewport": {
-      "x": -2023.4201383019567,
-      "y": -263.33757911986686,
+      "x": -2065.4201383019567,
+      "y": -300.33757911986686,
       "zoom": 0.8051317980788947
     }
   },

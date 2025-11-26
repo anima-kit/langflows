@@ -1024,6 +1024,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "official": false,
@@ -1129,6 +1130,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "official": false,
@@ -1234,6 +1236,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "official": false,
@@ -1339,6 +1342,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -1420,7 +1424,7 @@
           "x": 5846.647664199993,
           "y": 1302.5581391156397
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
       },
       {
@@ -1443,6 +1447,7 @@
             "frozen": false,
             "icon": "type",
             "legacy": false,
+            "lf_version": "1.6.8",
             "metadata": {},
             "minimized": false,
             "official": false,
@@ -1507,7 +1512,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": ""
+                "value": "4096"
               }
             },
             "tool_mode": false
@@ -1530,8 +1535,8 @@
       }
     ],
     "viewport": {
-      "x": -3384.9359822725937,
-      "y": -621.179197929207,
+      "x": -3386.9359822725937,
+      "y": -627.179197929207,
       "zoom": 0.7968288552040294
     }
   },
